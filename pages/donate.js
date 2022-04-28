@@ -23,7 +23,7 @@ export default function Donate() {
                     <Link href="https://britishschool.nl">
                         <a style={stylingBSN} className="h-32 w-32 bg-cover m-2"></a>
                     </Link>
-                    <p className='h-32 w-32 rounded bg-gray-200 m-2 p-2 rotate-90'>Zenbit</p>
+                    {/* <p className='h-32 w-32 rounded bg-gray-200 m-2 p-2 rotate-90'>Zenbit</p> */}
                     {/* <p className='h-32 w-32 rounded bg-gray-200 m-2 p-2 rotate-90'></p> */}
                     {/* <p className='h-32 w-32 rounded bg-gray-200 m-2 p-2 rotate-90'></p> */}
                 </div>
