@@ -15,7 +15,7 @@ export default function Navbar() {
                     <a className='text-sm lg:text-lg text-black mx-10 transition-all duration-200 hover:text-yellow-700'>Blog</a>
                 </Link> */}
                 <Link href="/location">
-                    <a className='text-center text-lg lg:text-lg text-blue-500 font-bold lg:text-black mx-10 transition-all duration-200 hover:text-yellow-700'>Location</a>
+                    <a className='text-center text-lg lg:text-lg text-blue-500 font-bold lg:text-black mx-10 transition-all duration-200 hover:text-yellow-700'>Info</a>
                 </Link>
                 <Link href="/donate">
                     <a className='text-center text-lg lg:text-lg text-blue-500 font-bold lg:text-black mx-10 transition-all duration-200 hover:text-yellow-700'>Donations</a>
