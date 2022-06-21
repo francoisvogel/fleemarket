@@ -9,7 +9,8 @@ export default function Entertainment() {
     return (
         <Layout>
             <div className=''>
-            <p className='text-lg lg:text-4xl text-center'>About the event</p>
+                <p className='text-lg lg:text-4xl text-center'>About the event</p>
+                <p className='text-base lg:text-2xl text-center font-bold text-red-800 py-10'>Important: The new Flee Market is scheduled for the 10th July!</p>
                 <div className='w-11/12 h-screen bg-no-repeat bg-center bg-contain' style={stylingAnnouncement}></div>
                 <p className='text-lg lg:text-4xl text-center'>Location</p>
                 <p className='text-lg lg:text-xl text-center px-10'>Vrouw Avenweg 650, 2493 WS Den Haag</p>
