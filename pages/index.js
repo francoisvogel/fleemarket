@@ -3,6 +3,7 @@ import Layout from '../components/layout';
 import Refugees from '../public/images/refugees.jpg'
 import Entertainment from '../public/images/entertainment.png'
 import Exchange from '../public/images/exchange.jpg'
+import Announcement from '../public/images/announcement.jpg'
 
 const stylingRefugees = {
     backgroundImage: `url(${Refugees.src})`,
@@ -16,11 +17,16 @@ const stylingExchange = {
     backgroundImage: `url(${Exchange.src})`,
 }
 
+const stylingAnnouncement = {
+    backgroundImage: `url(${Announcement.src})`,
+}
+
 export default function Index() {
     return (
         <Layout>
             <div className='p-3 bg-gradient-to-tr from-yellow-100 to-white'>
                 <p className='text-xl lg:text-7xl text-yellow-900 font-extrabold text-center py-5 mb-5'>Flee Market</p>
+                <div className='w-11/12 h-screen bg-no-repeat bg-center bg-contain' style={stylingAnnouncement}></div>
                 <div className='h-screen rounded-lg relative bg-cover bg-no-repeat mb-10 bg-contain bg-center' style={stylingRefugees}>
                     <p className='absolute bg-blue-200 min-w-full text-blue-600 bottom-10 p-3 text-center text-xl lg:text-5xl font-bold'>A place where Ukrainian families that were forced to flee can come and collect essentials</p>
                 </div>
@@ -32,5 +38,5 @@ export default function Index() {
                 </div>
             </div>
         </Layout>
-    )   
+    )
 }
