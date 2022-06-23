@@ -32,7 +32,7 @@ export default function Index() {
         <Layout>
             <div className='p-3 bg-gradient-to-tr from-yellow-100 to-white'>
                 <p className='text-xl lg:text-7xl text-yellow-900 font-extrabold text-center py-5 mb-5'>Flee Market</p>
-                <div className='mb-10 w-11/12 h-screen bg-no-repeat bg-center bg-contain' style={stylingAnnouncement}></div>
+                <div className='mb-10 w-auto h-screen bg-no-repeat bg-center bg-contain' style={stylingAnnouncement}></div>
                 <p className='text-lg lg:text-4xl text-center m-2'>QR-Code for Donations</p>
                 <div className='flex flex-row flex-wrap justify-center p-10 animate-pulse w-full'>
                     <div className='flex flex-row flex-wrap'>

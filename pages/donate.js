@@ -26,7 +26,7 @@ export default function Donate() {
                 <div className='w-11/12 h-screen bg-no-repeat bg-center bg-contain' style={stylingItems}></div>
                 <p className='text-lg lg:text-4xl text-center m-2'>QR-Code for Donations</p>
                 <div className='flex flex-row flex-wrap'>
-                    <div className='flex flex-row flex-wrap'>
+                    <div className='flex flex-row flex-wrap animate-pulse'>
                         <Link href="https://tikkie.me/pay/BSN_FA/pKV2tAGaEzuBz2cCusm9BF">
                             <a style={stylingQRCode} className="h-32 w-32 bg-cover m-2"></a>
                         </Link>
