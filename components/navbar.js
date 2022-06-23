@@ -11,9 +11,6 @@ export default function Navbar() {
                 <div className='flex flex-col justify-center align-center'><span className='italic text-xs tracking-wider px-2 text-yellow-800 font-bold bg-gradient-to-br from-blue-100 to-blue-200 p-0.5 rounded-lg text-center'>Providing help to those who need it, come on the 10<sup>th</sup> July starting at 11.30.</span></div>
             </div>
             <div className='flex flex-col lg:flex-row align-middle justify-center'>
-                <Link href="/blog">
-                    <a className='py-3 text-center text-lg lg:text-base text-blue-500 font-bold lg:text-black mx-10 transition-all duration-200 hover:text-yellow-700'>News</a>
-                </Link>
                 <Link href="/location">
                     <a className='py-3 text-center text-lg lg:text-base text-blue-500 font-bold lg:text-black mx-10 transition-all duration-200 hover:text-yellow-700'>Info</a>
                 </Link>
@@ -25,6 +22,9 @@ export default function Navbar() {
                 </Link>
                 <Link href="/about">
                     <a className='py-3 text-center text-lg lg:text-base text-blue-500 font-bold lg:text-black mx-10 transition-all duration-200 hover:text-yellow-700'>Contact</a>
+                </Link>
+                <Link href="/blog">
+                    <a className='py-3 text-center text-lg lg:text-base text-blue-500 font-bold lg:text-black mx-10 transition-all duration-200 hover:text-yellow-700'>News</a>
                 </Link>
             </div>
         </div>
